@@ -1,10 +1,10 @@
 from time import time
 
-from os.path import join, dirname
+from os.path import sep, join, dirname
 
 from .tf_logger import TFLogger
 
-_log_path = join(dirname(__file__), '../logs')
+_log_path = join(dirname(__file__), '..\logs')
 
 
 # high level wrapper for tf_logger.TFLogger
@@ -17,7 +17,8 @@ class Logger():
         self._clean_epoch_stats()
         self.update_f = update_frequency
         folder, logname = self.get_name_from_args(args)
-        log_path = join(_log_path, folder, logname)
+        log_path = join(sep, _log_path, folder, logname)
+
         if args.tf_logger:
             self.tf_logger = TFLogger(log_path)
             print("Saving to %s" % log_path)

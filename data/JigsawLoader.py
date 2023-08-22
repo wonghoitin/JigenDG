@@ -74,7 +74,7 @@ class JigsawDataset(data.Dataset):
         return tile
     
     def get_image(self, index):
-        framename = self.data_path + '/' + self.names[index]
+        framename = self.data_path + self.names[index]
         img = Image.open(framename).convert('RGB')
         return self._image_transformer(img)
         
@@ -114,7 +114,7 @@ class JigsawTestDataset(JigsawDataset):
         super().__init__(*args, **xargs)
 
     def __getitem__(self, index):
-        framename = self.data_path + '/' + self.names[index]
+        framename = self.data_path + self.names[index]
         img = Image.open(framename).convert('RGB')
         return self._image_transformer(img), 0, int(self.labels[index])
 
@@ -137,7 +137,7 @@ class JigsawTestDatasetMultiple(JigsawDataset):
         ])
 
     def __getitem__(self, index):
-        framename = self.data_path + '/' + self.names[index]
+        framename = self.data_path + self.names[index]
         _img = Image.open(framename).convert('RGB')
         img = self._image_transformer(_img)
 

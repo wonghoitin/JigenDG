@@ -35,7 +35,7 @@ heapdict==1.0.0
 html5lib==0.9999999
 httplib2==0.18.0
 idna==2.6
-ipdb==0.11
+ipdb
 ipykernel==4.8.0
 ipython==6.2.1
 ipython-genutils==0.2.0
@@ -78,7 +78,7 @@ olefile==0.44
 opencv-python==3.4.0.12
 palettable==3.1.0
 pandas==0.22.0
-pandas-summary==0.0.41
+pandas-summary
 pandocfilters==1.4.2
 parso==0.1.1
 partd==0.3.8

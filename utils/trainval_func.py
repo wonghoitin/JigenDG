@@ -46,7 +46,7 @@ def site_evaluation(epochs, site_name, args, model, dataloader, log_file, log_te
     results_dict = metric.results()
     log_ten.add_scalar(f'{note}_{site_name}_loss', results_dict['loss'], epochs)
     log_ten.add_scalar(f'{note}_{site_name}_acc', results_dict['acc'], epochs)
-    log_file.info(f'{note} Round: {epochs:3d} | Epochs: {args.local_epochs*epochs:3d} | Domain: {site_name} | loss: {results_dict["loss"]:.4f} | Acc: {results_dict["acc"]*100:.2f}%')
+    log_file.info(f'{note} Round: {epochs:3d} | Epochs: {args.local_epochs*epochs:3d} | Domain: {site_name} | loss: {results_dict["loss"]:.4f} | acc: {results_dict["acc"]*100:.2f}% | auc: {results_dict["auc"]*100:.2f}%')
 
     return results_dict
 
@@ -61,7 +61,7 @@ def site_evaluation_class_level(epochs, site_name, args, model, dataloader, log_
     log_ten.add_scalar(f'{note}_{site_name}_loss', results_dict['loss'], epochs)
     log_ten.add_scalar(f'{note}_{site_name}_acc', results_dict['acc'], epochs)
     log_ten.add_scalar(f'{note}_{site_name}_class_acc', results_dict['class_level_acc'], epochs)
-    log_file.info(f'{note} Round: {epochs:3d} | Epochs: {args.local_epochs*epochs:3d} | Domain: {site_name} | loss: {results_dict["loss"]:.4f} | Acc: {results_dict["acc"]*100:.2f}% | C Acc: {results_dict["class_level_acc"]*100:.2f}%')
+    log_file.info(f'{note} Round: {epochs:3d} | Epochs: {args.local_epochs*epochs:3d} | Domain: {site_name} | loss: {results_dict["loss"]:.4f} | acc: {results_dict["acc"]*100:.2f}% | C acc: {results_dict["class_level_acc"]*100:.2f}% | auc: {results_dict["auc"]*100:.2f}%')
 
     return results_dict
 
@@ -90,6 +90,10 @@ def GetFedModel(args, num_classes, is_train=True):
         domain_list = domainNet_domain_list
     elif args.dataset == 'terrainc':
         domain_list = terra_incognita_list
+    elif args.dataset == 'dr':
+        domain_list = ['oia', 'dohc', 'drtid']
+    elif args.dataset == 'office':
+        domain_list = ['office_a', 'office_c', 'office_p', 'office_r']
         
     for domain_name in domain_list:
         model_dict[domain_name], _ = GetNetwork(args, num_classes, is_train)

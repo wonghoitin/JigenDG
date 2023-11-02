@@ -1,0 +1,246 @@
+2023-10-26 17:50 before_fed Round:   0 | Epochs:   0 | Domain: oia | loss: 0.8941 | Acc: 66.05%
+2023-10-26 17:51 before_fed Round:   0 | Epochs:   0 | Domain: drtid | loss: 1.0768 | Acc: 60.20%
+2023-10-26 17:51 after_fed Round:   0 | Epochs:   0 | Domain: oia | loss: 1.5076 | Acc: 63.64%
+2023-10-26 17:51 after_fed Round:   0 | Epochs:   0 | Domain: drtid | loss: 1.5344 | Acc: 56.72%
+2023-10-26 17:51 Model saved! Best Val Acc: 40.12%
+2023-10-26 17:52 test_domain Round:   0 | Epochs:   0 | Domain: dohc | loss: 1.5759 | Acc: 49.65%
+2023-10-26 17:53 before_fed Round:   1 | Epochs:   5 | Domain: oia | loss: 0.8309 | Acc: 68.38%
+2023-10-26 17:54 before_fed Round:   1 | Epochs:   5 | Domain: drtid | loss: 0.9766 | Acc: 63.18%
+2023-10-26 17:55 after_fed Round:   1 | Epochs:   5 | Domain: oia | loss: 1.4677 | Acc: 63.64%
+2023-10-26 17:55 after_fed Round:   1 | Epochs:   5 | Domain: drtid | loss: 1.4959 | Acc: 56.72%
+2023-10-26 17:55 Model saved! Best Val Acc: 40.12%
+2023-10-26 17:55 test_domain Round:   1 | Epochs:   5 | Domain: dohc | loss: 1.5750 | Acc: 49.65%
+2023-10-26 17:57 before_fed Round:   2 | Epochs:  10 | Domain: oia | loss: 0.8037 | Acc: 69.54%
+2023-10-26 17:58 before_fed Round:   2 | Epochs:  10 | Domain: drtid | loss: 0.9328 | Acc: 63.18%
+2023-10-26 17:58 after_fed Round:   2 | Epochs:  10 | Domain: oia | loss: 1.4442 | Acc: 63.64%
+2023-10-26 17:58 after_fed Round:   2 | Epochs:  10 | Domain: drtid | loss: 1.4750 | Acc: 56.72%
+2023-10-26 17:58 Model saved! Best Val Acc: 40.12%
+2023-10-26 17:58 test_domain Round:   2 | Epochs:  10 | Domain: dohc | loss: 1.5717 | Acc: 49.65%
+2023-10-26 18:00 before_fed Round:   3 | Epochs:  15 | Domain: oia | loss: 0.8059 | Acc: 69.46%
+2023-10-26 18:01 before_fed Round:   3 | Epochs:  15 | Domain: drtid | loss: 0.8792 | Acc: 67.16%
+2023-10-26 18:01 after_fed Round:   3 | Epochs:  15 | Domain: oia | loss: 1.4472 | Acc: 63.64%
+2023-10-26 18:01 after_fed Round:   3 | Epochs:  15 | Domain: drtid | loss: 1.4741 | Acc: 56.72%
+2023-10-26 18:01 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:01 test_domain Round:   3 | Epochs:  15 | Domain: dohc | loss: 1.5668 | Acc: 49.65%
+2023-10-26 18:03 before_fed Round:   4 | Epochs:  20 | Domain: oia | loss: 0.8386 | Acc: 68.69%
+2023-10-26 18:04 before_fed Round:   4 | Epochs:  20 | Domain: drtid | loss: 0.9182 | Acc: 68.16%
+2023-10-26 18:04 after_fed Round:   4 | Epochs:  20 | Domain: oia | loss: 1.4537 | Acc: 63.64%
+2023-10-26 18:05 after_fed Round:   4 | Epochs:  20 | Domain: drtid | loss: 1.4764 | Acc: 56.72%
+2023-10-26 18:05 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:05 test_domain Round:   4 | Epochs:  20 | Domain: dohc | loss: 1.5611 | Acc: 49.65%
+2023-10-26 18:06 before_fed Round:   5 | Epochs:  25 | Domain: oia | loss: 0.9099 | Acc: 66.51%
+2023-10-26 18:08 before_fed Round:   5 | Epochs:  25 | Domain: drtid | loss: 0.9976 | Acc: 65.67%
+2023-10-26 18:08 after_fed Round:   5 | Epochs:  25 | Domain: oia | loss: 1.3416 | Acc: 63.64%
+2023-10-26 18:08 after_fed Round:   5 | Epochs:  25 | Domain: drtid | loss: 1.3882 | Acc: 56.72%
+2023-10-26 18:08 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:08 test_domain Round:   5 | Epochs:  25 | Domain: dohc | loss: 1.5237 | Acc: 49.65%
+2023-10-26 18:10 before_fed Round:   6 | Epochs:  30 | Domain: oia | loss: 0.9316 | Acc: 65.89%
+2023-10-26 18:11 before_fed Round:   6 | Epochs:  30 | Domain: drtid | loss: 1.1342 | Acc: 64.68%
+2023-10-26 18:11 after_fed Round:   6 | Epochs:  30 | Domain: oia | loss: 1.2268 | Acc: 63.64%
+2023-10-26 18:11 after_fed Round:   6 | Epochs:  30 | Domain: drtid | loss: 1.3002 | Acc: 56.72%
+2023-10-26 18:11 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:11 test_domain Round:   6 | Epochs:  30 | Domain: dohc | loss: 1.4920 | Acc: 49.65%
+2023-10-26 18:13 before_fed Round:   7 | Epochs:  35 | Domain: oia | loss: 1.0470 | Acc: 63.64%
+2023-10-26 18:14 before_fed Round:   7 | Epochs:  35 | Domain: drtid | loss: 1.2932 | Acc: 56.72%
+2023-10-26 18:14 after_fed Round:   7 | Epochs:  35 | Domain: oia | loss: 1.1979 | Acc: 63.64%
+2023-10-26 18:14 after_fed Round:   7 | Epochs:  35 | Domain: drtid | loss: 1.2740 | Acc: 56.72%
+2023-10-26 18:14 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:14 test_domain Round:   7 | Epochs:  35 | Domain: dohc | loss: 1.4775 | Acc: 49.65%
+2023-10-26 18:16 before_fed Round:   8 | Epochs:  40 | Domain: oia | loss: 1.0927 | Acc: 63.64%
+2023-10-26 18:17 before_fed Round:   8 | Epochs:  40 | Domain: drtid | loss: 1.3222 | Acc: 56.72%
+2023-10-26 18:17 after_fed Round:   8 | Epochs:  40 | Domain: oia | loss: 1.2379 | Acc: 63.64%
+2023-10-26 18:18 after_fed Round:   8 | Epochs:  40 | Domain: drtid | loss: 1.3005 | Acc: 56.72%
+2023-10-26 18:18 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:18 test_domain Round:   8 | Epochs:  40 | Domain: dohc | loss: 1.4721 | Acc: 49.65%
+2023-10-26 18:19 before_fed Round:   9 | Epochs:  45 | Domain: oia | loss: 1.1012 | Acc: 63.64%
+2023-10-26 18:21 before_fed Round:   9 | Epochs:  45 | Domain: drtid | loss: 1.3221 | Acc: 56.72%
+2023-10-26 18:21 after_fed Round:   9 | Epochs:  45 | Domain: oia | loss: 1.2637 | Acc: 63.64%
+2023-10-26 18:21 after_fed Round:   9 | Epochs:  45 | Domain: drtid | loss: 1.3190 | Acc: 56.72%
+2023-10-26 18:21 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:21 test_domain Round:   9 | Epochs:  45 | Domain: dohc | loss: 1.4718 | Acc: 49.65%
+2023-10-26 18:23 before_fed Round:  10 | Epochs:  50 | Domain: oia | loss: 1.1117 | Acc: 63.64%
+2023-10-26 18:24 before_fed Round:  10 | Epochs:  50 | Domain: drtid | loss: 1.3265 | Acc: 56.72%
+2023-10-26 18:24 after_fed Round:  10 | Epochs:  50 | Domain: oia | loss: 1.2842 | Acc: 63.64%
+2023-10-26 18:24 after_fed Round:  10 | Epochs:  50 | Domain: drtid | loss: 1.3347 | Acc: 56.72%
+2023-10-26 18:24 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:24 test_domain Round:  10 | Epochs:  50 | Domain: dohc | loss: 1.4741 | Acc: 49.65%
+2023-10-26 18:26 before_fed Round:  11 | Epochs:  55 | Domain: oia | loss: 1.1147 | Acc: 63.64%
+2023-10-26 18:27 before_fed Round:  11 | Epochs:  55 | Domain: drtid | loss: 1.3251 | Acc: 56.72%
+2023-10-26 18:27 after_fed Round:  11 | Epochs:  55 | Domain: oia | loss: 1.2957 | Acc: 63.64%
+2023-10-26 18:28 after_fed Round:  11 | Epochs:  55 | Domain: drtid | loss: 1.3438 | Acc: 56.72%
+2023-10-26 18:28 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:28 test_domain Round:  11 | Epochs:  55 | Domain: dohc | loss: 1.4756 | Acc: 49.65%
+2023-10-26 18:29 before_fed Round:  12 | Epochs:  60 | Domain: oia | loss: 1.1110 | Acc: 63.64%
+2023-10-26 18:31 before_fed Round:  12 | Epochs:  60 | Domain: drtid | loss: 1.3137 | Acc: 56.72%
+2023-10-26 18:31 after_fed Round:  12 | Epochs:  60 | Domain: oia | loss: 1.3037 | Acc: 63.64%
+2023-10-26 18:31 after_fed Round:  12 | Epochs:  60 | Domain: drtid | loss: 1.3498 | Acc: 56.72%
+2023-10-26 18:31 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:31 test_domain Round:  12 | Epochs:  60 | Domain: dohc | loss: 1.4776 | Acc: 49.65%
+2023-10-26 18:33 before_fed Round:  13 | Epochs:  65 | Domain: oia | loss: 1.1048 | Acc: 63.64%
+2023-10-26 18:34 before_fed Round:  13 | Epochs:  65 | Domain: drtid | loss: 1.3078 | Acc: 56.72%
+2023-10-26 18:34 after_fed Round:  13 | Epochs:  65 | Domain: oia | loss: 1.3040 | Acc: 63.64%
+2023-10-26 18:34 after_fed Round:  13 | Epochs:  65 | Domain: drtid | loss: 1.3499 | Acc: 56.72%
+2023-10-26 18:34 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:34 test_domain Round:  13 | Epochs:  65 | Domain: dohc | loss: 1.4779 | Acc: 49.65%
+2023-10-26 18:36 before_fed Round:  14 | Epochs:  70 | Domain: oia | loss: 1.1002 | Acc: 63.64%
+2023-10-26 18:37 before_fed Round:  14 | Epochs:  70 | Domain: drtid | loss: 1.3035 | Acc: 56.72%
+2023-10-26 18:37 after_fed Round:  14 | Epochs:  70 | Domain: oia | loss: 1.3016 | Acc: 63.64%
+2023-10-26 18:37 after_fed Round:  14 | Epochs:  70 | Domain: drtid | loss: 1.3481 | Acc: 56.72%
+2023-10-26 18:37 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:37 test_domain Round:  14 | Epochs:  70 | Domain: dohc | loss: 1.4779 | Acc: 49.65%
+2023-10-26 18:39 before_fed Round:  15 | Epochs:  75 | Domain: oia | loss: 1.0936 | Acc: 63.64%
+2023-10-26 18:40 before_fed Round:  15 | Epochs:  75 | Domain: drtid | loss: 1.3001 | Acc: 56.72%
+2023-10-26 18:40 after_fed Round:  15 | Epochs:  75 | Domain: oia | loss: 1.2981 | Acc: 63.64%
+2023-10-26 18:41 after_fed Round:  15 | Epochs:  75 | Domain: drtid | loss: 1.3450 | Acc: 56.72%
+2023-10-26 18:41 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:41 test_domain Round:  15 | Epochs:  75 | Domain: dohc | loss: 1.4774 | Acc: 49.65%
+2023-10-26 18:42 before_fed Round:  16 | Epochs:  80 | Domain: oia | loss: 1.0886 | Acc: 63.64%
+2023-10-26 18:44 before_fed Round:  16 | Epochs:  80 | Domain: drtid | loss: 1.2963 | Acc: 56.72%
+2023-10-26 18:44 after_fed Round:  16 | Epochs:  80 | Domain: oia | loss: 1.2954 | Acc: 63.64%
+2023-10-26 18:44 after_fed Round:  16 | Epochs:  80 | Domain: drtid | loss: 1.3428 | Acc: 56.72%
+2023-10-26 18:44 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:44 test_domain Round:  16 | Epochs:  80 | Domain: dohc | loss: 1.4773 | Acc: 49.65%
+2023-10-26 18:46 before_fed Round:  17 | Epochs:  85 | Domain: oia | loss: 1.0835 | Acc: 63.64%
+2023-10-26 18:47 before_fed Round:  17 | Epochs:  85 | Domain: drtid | loss: 1.2930 | Acc: 56.72%
+2023-10-26 18:47 after_fed Round:  17 | Epochs:  85 | Domain: oia | loss: 1.2928 | Acc: 63.64%
+2023-10-26 18:47 after_fed Round:  17 | Epochs:  85 | Domain: drtid | loss: 1.3406 | Acc: 56.72%
+2023-10-26 18:47 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:47 test_domain Round:  17 | Epochs:  85 | Domain: dohc | loss: 1.4775 | Acc: 49.65%
+2023-10-26 18:49 before_fed Round:  18 | Epochs:  90 | Domain: oia | loss: 1.0788 | Acc: 63.64%
+2023-10-26 18:50 before_fed Round:  18 | Epochs:  90 | Domain: drtid | loss: 1.2893 | Acc: 56.72%
+2023-10-26 18:50 after_fed Round:  18 | Epochs:  90 | Domain: oia | loss: 1.2900 | Acc: 63.64%
+2023-10-26 18:51 after_fed Round:  18 | Epochs:  90 | Domain: drtid | loss: 1.3384 | Acc: 56.72%
+2023-10-26 18:51 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:51 test_domain Round:  18 | Epochs:  90 | Domain: dohc | loss: 1.4775 | Acc: 49.65%
+2023-10-26 18:52 before_fed Round:  19 | Epochs:  95 | Domain: oia | loss: 1.0752 | Acc: 63.64%
+2023-10-26 18:54 before_fed Round:  19 | Epochs:  95 | Domain: drtid | loss: 1.2863 | Acc: 56.72%
+2023-10-26 18:54 after_fed Round:  19 | Epochs:  95 | Domain: oia | loss: 1.2883 | Acc: 63.64%
+2023-10-26 18:54 after_fed Round:  19 | Epochs:  95 | Domain: drtid | loss: 1.3369 | Acc: 56.72%
+2023-10-26 18:54 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:54 test_domain Round:  19 | Epochs:  95 | Domain: dohc | loss: 1.4780 | Acc: 49.65%
+2023-10-26 18:56 before_fed Round:  20 | Epochs: 100 | Domain: oia | loss: 1.0725 | Acc: 63.64%
+2023-10-26 18:57 before_fed Round:  20 | Epochs: 100 | Domain: drtid | loss: 1.2833 | Acc: 56.72%
+2023-10-26 18:57 after_fed Round:  20 | Epochs: 100 | Domain: oia | loss: 1.2869 | Acc: 63.64%
+2023-10-26 18:57 after_fed Round:  20 | Epochs: 100 | Domain: drtid | loss: 1.3356 | Acc: 56.72%
+2023-10-26 18:57 Model saved! Best Val Acc: 40.12%
+2023-10-26 18:57 test_domain Round:  20 | Epochs: 100 | Domain: dohc | loss: 1.4783 | Acc: 49.65%
+2023-10-26 18:59 before_fed Round:  21 | Epochs: 105 | Domain: oia | loss: 1.0699 | Acc: 63.64%
+2023-10-26 19:00 before_fed Round:  21 | Epochs: 105 | Domain: drtid | loss: 1.2816 | Acc: 56.72%
+2023-10-26 19:00 after_fed Round:  21 | Epochs: 105 | Domain: oia | loss: 1.2858 | Acc: 63.64%
+2023-10-26 19:00 after_fed Round:  21 | Epochs: 105 | Domain: drtid | loss: 1.3347 | Acc: 56.72%
+2023-10-26 19:00 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:00 test_domain Round:  21 | Epochs: 105 | Domain: dohc | loss: 1.4786 | Acc: 49.65%
+2023-10-26 19:02 before_fed Round:  22 | Epochs: 110 | Domain: oia | loss: 1.0680 | Acc: 63.64%
+2023-10-26 19:03 before_fed Round:  22 | Epochs: 110 | Domain: drtid | loss: 1.2795 | Acc: 56.72%
+2023-10-26 19:04 after_fed Round:  22 | Epochs: 110 | Domain: oia | loss: 1.2850 | Acc: 63.64%
+2023-10-26 19:04 after_fed Round:  22 | Epochs: 110 | Domain: drtid | loss: 1.3340 | Acc: 56.72%
+2023-10-26 19:04 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:04 test_domain Round:  22 | Epochs: 110 | Domain: dohc | loss: 1.4791 | Acc: 49.65%
+2023-10-26 19:06 before_fed Round:  23 | Epochs: 115 | Domain: oia | loss: 1.0664 | Acc: 63.64%
+2023-10-26 19:07 before_fed Round:  23 | Epochs: 115 | Domain: drtid | loss: 1.2785 | Acc: 56.72%
+2023-10-26 19:07 after_fed Round:  23 | Epochs: 115 | Domain: oia | loss: 1.2845 | Acc: 63.64%
+2023-10-26 19:07 after_fed Round:  23 | Epochs: 115 | Domain: drtid | loss: 1.3336 | Acc: 56.72%
+2023-10-26 19:07 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:07 test_domain Round:  23 | Epochs: 115 | Domain: dohc | loss: 1.4795 | Acc: 49.65%
+2023-10-26 19:09 before_fed Round:  24 | Epochs: 120 | Domain: oia | loss: 1.0653 | Acc: 63.64%
+2023-10-26 19:10 before_fed Round:  24 | Epochs: 120 | Domain: drtid | loss: 1.2770 | Acc: 56.72%
+2023-10-26 19:10 after_fed Round:  24 | Epochs: 120 | Domain: oia | loss: 1.2840 | Acc: 63.64%
+2023-10-26 19:10 after_fed Round:  24 | Epochs: 120 | Domain: drtid | loss: 1.3332 | Acc: 56.72%
+2023-10-26 19:10 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:10 test_domain Round:  24 | Epochs: 120 | Domain: dohc | loss: 1.4798 | Acc: 49.65%
+2023-10-26 19:12 before_fed Round:  25 | Epochs: 125 | Domain: oia | loss: 1.0640 | Acc: 63.64%
+2023-10-26 19:13 before_fed Round:  25 | Epochs: 125 | Domain: drtid | loss: 1.2761 | Acc: 56.72%
+2023-10-26 19:13 after_fed Round:  25 | Epochs: 125 | Domain: oia | loss: 1.2833 | Acc: 63.64%
+2023-10-26 19:13 after_fed Round:  25 | Epochs: 125 | Domain: drtid | loss: 1.3326 | Acc: 56.72%
+2023-10-26 19:13 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:14 test_domain Round:  25 | Epochs: 125 | Domain: dohc | loss: 1.4798 | Acc: 49.65%
+2023-10-26 19:15 before_fed Round:  26 | Epochs: 130 | Domain: oia | loss: 1.0633 | Acc: 63.64%
+2023-10-26 19:16 before_fed Round:  26 | Epochs: 130 | Domain: drtid | loss: 1.2749 | Acc: 56.72%
+2023-10-26 19:17 after_fed Round:  26 | Epochs: 130 | Domain: oia | loss: 1.2829 | Acc: 63.64%
+2023-10-26 19:17 after_fed Round:  26 | Epochs: 130 | Domain: drtid | loss: 1.3322 | Acc: 56.72%
+2023-10-26 19:17 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:17 test_domain Round:  26 | Epochs: 130 | Domain: dohc | loss: 1.4799 | Acc: 49.65%
+2023-10-26 19:19 before_fed Round:  27 | Epochs: 135 | Domain: oia | loss: 1.0629 | Acc: 63.64%
+2023-10-26 19:20 before_fed Round:  27 | Epochs: 135 | Domain: drtid | loss: 1.2744 | Acc: 56.72%
+2023-10-26 19:20 after_fed Round:  27 | Epochs: 135 | Domain: oia | loss: 1.2832 | Acc: 63.64%
+2023-10-26 19:20 after_fed Round:  27 | Epochs: 135 | Domain: drtid | loss: 1.3324 | Acc: 56.72%
+2023-10-26 19:20 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:20 test_domain Round:  27 | Epochs: 135 | Domain: dohc | loss: 1.4803 | Acc: 49.65%
+2023-10-26 19:22 before_fed Round:  28 | Epochs: 140 | Domain: oia | loss: 1.0624 | Acc: 63.64%
+2023-10-26 19:23 before_fed Round:  28 | Epochs: 140 | Domain: drtid | loss: 1.2740 | Acc: 56.72%
+2023-10-26 19:23 after_fed Round:  28 | Epochs: 140 | Domain: oia | loss: 1.2828 | Acc: 63.64%
+2023-10-26 19:23 after_fed Round:  28 | Epochs: 140 | Domain: drtid | loss: 1.3322 | Acc: 56.72%
+2023-10-26 19:23 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:23 test_domain Round:  28 | Epochs: 140 | Domain: dohc | loss: 1.4804 | Acc: 49.65%
+2023-10-26 19:25 before_fed Round:  29 | Epochs: 145 | Domain: oia | loss: 1.0618 | Acc: 63.64%
+2023-10-26 19:26 before_fed Round:  29 | Epochs: 145 | Domain: drtid | loss: 1.2739 | Acc: 56.72%
+2023-10-26 19:26 after_fed Round:  29 | Epochs: 145 | Domain: oia | loss: 1.2827 | Acc: 63.64%
+2023-10-26 19:26 after_fed Round:  29 | Epochs: 145 | Domain: drtid | loss: 1.3321 | Acc: 56.72%
+2023-10-26 19:26 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:27 test_domain Round:  29 | Epochs: 145 | Domain: dohc | loss: 1.4806 | Acc: 49.65%
+2023-10-26 19:28 before_fed Round:  30 | Epochs: 150 | Domain: oia | loss: 1.0619 | Acc: 63.64%
+2023-10-26 19:29 before_fed Round:  30 | Epochs: 150 | Domain: drtid | loss: 1.2740 | Acc: 56.72%
+2023-10-26 19:30 after_fed Round:  30 | Epochs: 150 | Domain: oia | loss: 1.2831 | Acc: 63.64%
+2023-10-26 19:30 after_fed Round:  30 | Epochs: 150 | Domain: drtid | loss: 1.3324 | Acc: 56.72%
+2023-10-26 19:30 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:30 test_domain Round:  30 | Epochs: 150 | Domain: dohc | loss: 1.4807 | Acc: 49.65%
+2023-10-26 19:32 before_fed Round:  31 | Epochs: 155 | Domain: oia | loss: 1.0614 | Acc: 63.64%
+2023-10-26 19:33 before_fed Round:  31 | Epochs: 155 | Domain: drtid | loss: 1.2731 | Acc: 56.72%
+2023-10-26 19:33 after_fed Round:  31 | Epochs: 155 | Domain: oia | loss: 1.2828 | Acc: 63.64%
+2023-10-26 19:33 after_fed Round:  31 | Epochs: 155 | Domain: drtid | loss: 1.3319 | Acc: 56.72%
+2023-10-26 19:33 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:33 test_domain Round:  31 | Epochs: 155 | Domain: dohc | loss: 1.4807 | Acc: 49.65%
+2023-10-26 19:35 before_fed Round:  32 | Epochs: 160 | Domain: oia | loss: 1.2412 | Acc: 63.64%
+2023-10-26 19:36 before_fed Round:  32 | Epochs: 160 | Domain: drtid | loss: 1.3252 | Acc: 56.72%
+2023-10-26 19:36 after_fed Round:  32 | Epochs: 160 | Domain: oia | loss: 1.3882 | Acc: 63.64%
+2023-10-26 19:36 after_fed Round:  32 | Epochs: 160 | Domain: drtid | loss: 1.4192 | Acc: 56.72%
+2023-10-26 19:36 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:36 test_domain Round:  32 | Epochs: 160 | Domain: dohc | loss: 1.5115 | Acc: 49.65%
+2023-10-26 19:38 before_fed Round:  33 | Epochs: 165 | Domain: oia | loss: 1.3415 | Acc: 63.64%
+2023-10-26 19:39 before_fed Round:  33 | Epochs: 165 | Domain: drtid | loss: 1.4105 | Acc: 56.72%
+2023-10-26 19:40 after_fed Round:  33 | Epochs: 165 | Domain: oia | loss: 1.4534 | Acc: 63.64%
+2023-10-26 19:40 after_fed Round:  33 | Epochs: 165 | Domain: drtid | loss: 1.4746 | Acc: 56.72%
+2023-10-26 19:40 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:40 test_domain Round:  33 | Epochs: 165 | Domain: dohc | loss: 1.5361 | Acc: 49.65%
+2023-10-26 19:41 before_fed Round:  34 | Epochs: 170 | Domain: oia | loss: 1.4075 | Acc: 63.64%
+2023-10-26 19:43 before_fed Round:  34 | Epochs: 170 | Domain: drtid | loss: 1.4653 | Acc: 56.72%
+2023-10-26 19:43 after_fed Round:  34 | Epochs: 170 | Domain: oia | loss: 1.4929 | Acc: 63.64%
+2023-10-26 19:43 after_fed Round:  34 | Epochs: 170 | Domain: drtid | loss: 1.5085 | Acc: 56.72%
+2023-10-26 19:43 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:43 test_domain Round:  34 | Epochs: 170 | Domain: dohc | loss: 1.5525 | Acc: 49.65%
+2023-10-26 19:45 before_fed Round:  35 | Epochs: 175 | Domain: oia | loss: 1.4481 | Acc: 63.64%
+2023-10-26 19:46 before_fed Round:  35 | Epochs: 175 | Domain: drtid | loss: 1.4991 | Acc: 56.72%
+2023-10-26 19:46 after_fed Round:  35 | Epochs: 175 | Domain: oia | loss: 1.5166 | Acc: 63.64%
+2023-10-26 19:46 after_fed Round:  35 | Epochs: 175 | Domain: drtid | loss: 1.5290 | Acc: 56.72%
+2023-10-26 19:46 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:46 test_domain Round:  35 | Epochs: 175 | Domain: dohc | loss: 1.5628 | Acc: 49.65%
+2023-10-26 19:48 before_fed Round:  36 | Epochs: 180 | Domain: oia | loss: 1.4728 | Acc: 63.64%
+2023-10-26 19:49 before_fed Round:  36 | Epochs: 180 | Domain: drtid | loss: 1.5196 | Acc: 56.72%
+2023-10-26 19:49 after_fed Round:  36 | Epochs: 180 | Domain: oia | loss: 1.5310 | Acc: 63.64%
+2023-10-26 19:49 after_fed Round:  36 | Epochs: 180 | Domain: drtid | loss: 1.5415 | Acc: 56.72%
+2023-10-26 19:49 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:50 test_domain Round:  36 | Epochs: 180 | Domain: dohc | loss: 1.5692 | Acc: 49.65%
+2023-10-26 19:51 before_fed Round:  37 | Epochs: 185 | Domain: oia | loss: 1.4876 | Acc: 63.64%
+2023-10-26 19:52 before_fed Round:  37 | Epochs: 185 | Domain: drtid | loss: 1.5321 | Acc: 56.72%
+2023-10-26 19:53 after_fed Round:  37 | Epochs: 185 | Domain: oia | loss: 1.5397 | Acc: 63.64%
+2023-10-26 19:53 after_fed Round:  37 | Epochs: 185 | Domain: drtid | loss: 1.5490 | Acc: 56.72%
+2023-10-26 19:53 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:53 test_domain Round:  37 | Epochs: 185 | Domain: dohc | loss: 1.5731 | Acc: 49.65%
+2023-10-26 19:55 before_fed Round:  38 | Epochs: 190 | Domain: oia | loss: 1.4966 | Acc: 63.64%
+2023-10-26 19:56 before_fed Round:  38 | Epochs: 190 | Domain: drtid | loss: 1.5396 | Acc: 56.72%
+2023-10-26 19:56 after_fed Round:  38 | Epochs: 190 | Domain: oia | loss: 1.5450 | Acc: 63.64%
+2023-10-26 19:56 after_fed Round:  38 | Epochs: 190 | Domain: drtid | loss: 1.5537 | Acc: 56.72%
+2023-10-26 19:56 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:56 test_domain Round:  38 | Epochs: 190 | Domain: dohc | loss: 1.5755 | Acc: 49.65%
+2023-10-26 19:58 before_fed Round:  39 | Epochs: 195 | Domain: oia | loss: 1.5020 | Acc: 63.64%
+2023-10-26 19:59 before_fed Round:  39 | Epochs: 195 | Domain: drtid | loss: 1.5442 | Acc: 56.72%
+2023-10-26 19:59 after_fed Round:  39 | Epochs: 195 | Domain: oia | loss: 1.5483 | Acc: 63.64%
+2023-10-26 19:59 after_fed Round:  39 | Epochs: 195 | Domain: drtid | loss: 1.5565 | Acc: 56.72%
+2023-10-26 19:59 Model saved! Best Val Acc: 40.12%
+2023-10-26 19:59 test_domain Round:  39 | Epochs: 195 | Domain: dohc | loss: 1.5770 | Acc: 49.65%
+2023-10-26 20:01 before_fed Round:  40 | Epochs: 200 | Domain: oia | loss: 1.5052 | Acc: 63.64%
+2023-10-26 20:02 before_fed Round:  40 | Epochs: 200 | Domain: drtid | loss: 1.5470 | Acc: 56.72%
+2023-10-26 20:03 after_fed Round:  40 | Epochs: 200 | Domain: oia | loss: 1.5503 | Acc: 63.64%
+2023-10-26 20:03 after_fed Round:  40 | Epochs: 200 | Domain: drtid | loss: 1.5582 | Acc: 56.72%
+2023-10-26 20:03 Model saved! Best Val Acc: 40.12%
+2023-10-26 20:03 test_domain Round:  40 | Epochs: 200 | Domain: dohc | loss: 1.5778 | Acc: 49.65%

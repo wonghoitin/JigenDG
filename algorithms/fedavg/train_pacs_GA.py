@@ -3,7 +3,7 @@ import argparse
 from utils.log_utils import *
 from torch.utils.tensorboard.writer import SummaryWriter
 from data.pacs_dataset import PACS_FedDG
-from utils.classification_metric import Classification 
+from utils.classification_metric import Classification
 from utils.fed_merge import FedAvg, FedUpdate
 from utils.trainval_func import site_train, site_evaluation, GetFedModel, SaveCheckPoint
 from utils.weight_adjust import refine_weight_dict_by_GA
@@ -13,9 +13,9 @@ def get_argparse():
     parser.add_argument("--model", type=str, default='resnet18',
                         choices=['resnet18', 'resnet50'], help='model name')
     parser.add_argument("--test_domain", type=str, default='p',
-                        choices=['p', 'a', 'c', 's'], help='the domain name for testing')
+                        choices=['p', 'c', 'a', 's'], help='the domain name for testing')
     parser.add_argument('--num_classes', help='number of classes default 7', type=int, default=7)
-    parser.add_argument('--batch_size', help='batch_size', type=int, default=16)
+    parser.add_argument('--batch_size', help='batch_size', type=int, default=128)
     parser.add_argument('--local_epochs', help='epochs number', type=int, default=5)
     parser.add_argument('--comm', help='epochs number', type=int, default=40)
     parser.add_argument('--lr', help='learning rate', type=float, default=0.001)

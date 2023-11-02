@@ -1,0 +1,15 @@
+{
+    "batch_size": 128,
+    "comm": 40,
+    "dataset": "dr",
+    "display": false,
+    "fair": "acc",
+    "local_epochs": 5,
+    "lr": 0.001,
+    "lr_policy": "step",
+    "model": "resnet18",
+    "note": "generalization_adjustment",
+    "num_classes": 5,
+    "step_size": 0.2,
+    "test_domain": "dohc"
+}

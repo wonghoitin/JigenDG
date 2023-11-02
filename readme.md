@@ -50,7 +50,7 @@ We release the code for PACS dataset and the other two benchmarks can be applied
 Then running the code:
 
 `
-python algorithms/fedavg/train_pacs_GA.py --test_domain p --lr 0.001 --batch_size 16 --comm 40 --model resnet18 --note debug
+D:\FedDG-GA\venv\Scripts\python.exe D:\FedDG-GA\algorithms\fedavg\train_pacs_GA.py --test_domain p --lr 0.001 --batch_size 16 --comm 40 --model resnet18 --note debug
 `
 
 ## Acknowledgement

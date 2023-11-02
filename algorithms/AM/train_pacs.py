@@ -3,7 +3,7 @@ import argparse
 from network.get_network import GetNetwork
 from torch.utils.tensorboard.writer import SummaryWriter
 from data.pacs_dataset import PACS_FedDG
-from utils.classification_metric import Classification 
+from utils.classification_metric import Classification
 from utils.log_utils import *
 from utils.fed_merge import Cal_Weight_Dict, FedAvg, FedUpdate
 from utils.trainval_func import site_evaluation, GetFedModel, SaveCheckPoint

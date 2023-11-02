@@ -42,9 +42,9 @@ class PACS_SingleDomain():
         else:
             raise ValueError('domain_name should be in p a c s')
         
-        self.root_path = os.path.join(root_path, 'raw_images')
+        self.root_path = os.path.join(os.sep, root_path)
         self.split = split
-        self.split_file = os.path.join(root_path, 'raw_images', 'Train val splits and h5py files pre-read', f'{self.domain_name}_{split_dict[self.split]}_kfold' + '.txt')
+        self.split_file = os.path.join(os.sep, root_path, f'{self.domain_name}_{split_dict[self.split]}_kfold' + '.txt')
         
         if train_transform is not None:
             self.transform = train_transform
@@ -63,7 +63,7 @@ class PACS_SingleDomain():
         for line_txt in txt_component:
             line_txt = line_txt.replace('\n', '')
             line_txt = line_txt.split(' ')
-            imgs.append(os.path.join(root_path, line_txt[0]))
+            imgs.append(os.path.join(os.sep, root_path, line_txt[0]))
             labels.append(int(line_txt[1]) - 1)
         return imgs, labels
     

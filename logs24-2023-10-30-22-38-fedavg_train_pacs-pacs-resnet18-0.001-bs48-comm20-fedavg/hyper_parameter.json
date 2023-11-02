@@ -1,0 +1,13 @@
+{
+    "batch_size": 48,
+    "comm": 20,
+    "dataset": "pacs",
+    "display": false,
+    "local_epochs": 5,
+    "lr": 0.001,
+    "lr_policy": "step",
+    "model": "resnet18",
+    "note": "fedavg",
+    "num_classes": 7,
+    "test_domain": "p"
+}

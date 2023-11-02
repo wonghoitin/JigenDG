@@ -3,7 +3,7 @@ import argparse
 from utils.log_utils import *
 from torch.utils.tensorboard.writer import SummaryWriter
 from data.pacs_dataset import PACS_FedDG
-from utils.classification_metric import Classification 
+from utils.classification_metric import Classification
 from utils.fed_merge import FedAvg, FedUpdate
 from utils.trainval_func import site_train, site_evaluation, GetFedModel, SaveCheckPoint
 from utils.weight_adjust import refine_weight_dict_by_GA

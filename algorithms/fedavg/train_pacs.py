@@ -3,7 +3,7 @@ import argparse
 from network.get_network import GetNetwork
 from torch.utils.tensorboard.writer import SummaryWriter
 from data.pacs_dataset import PACS_FedDG
-from utils.classification_metric import Classification 
+from utils.classification_metric import Classification
 from utils.log_utils import *
 from utils.fed_merge import Cal_Weight_Dict, FedAvg, FedUpdate
 from utils.trainval_func import site_evaluation, site_train, GetFedModel, SaveCheckPoint
@@ -18,9 +18,9 @@ def get_argparse():
     parser.add_argument("--test_domain", type=str, default='p',
                         choices=['p', 'a', 'c', 's'], help='the domain name for testing')
     parser.add_argument('--num_classes', help='number of classes default 7', type=int, default=7)
-    parser.add_argument('--batch_size', help='batch_size', type=int, default=16)
+    parser.add_argument('--batch_size', help='batch_size', type=int, default=128)
     parser.add_argument('--local_epochs', help='epochs number', type=int, default=5)
-    parser.add_argument('--comm', help='epochs number', type=int, default=100)
+    parser.add_argument('--comm', help='epochs number', type=int, default=40)
     parser.add_argument('--lr', help='learning rate', type=float, default=0.001)
     parser.add_argument("--lr_policy", type=str, default='step', choices=['step'],
                         help="learning rate scheduler policy")

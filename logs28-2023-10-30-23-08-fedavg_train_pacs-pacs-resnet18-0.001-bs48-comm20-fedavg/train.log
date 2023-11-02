@@ -1,0 +1,3 @@
+2023-10-30 23:09 before_fed Round:   0 | Epochs:   0 | Domain: a | loss: 0.3509 | Acc: 87.98%
+2023-10-30 23:11 before_fed Round:   0 | Epochs:   0 | Domain: c | loss: 0.3018 | Acc: 90.72%
+2023-10-30 23:12 before_fed Round:   0 | Epochs:   0 | Domain: s | loss: 0.2135 | Acc: 92.96%

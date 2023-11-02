@@ -1,0 +1,16 @@
+{
+    "alpha": 0.5,
+    "batch_size": 128,
+    "comm": 40,
+    "dataset": "pacs",
+    "display": false,
+    "kd_epochs": 5,
+    "local_epochs": 5,
+    "lr": 0.001,
+    "lr_policy": "step",
+    "model": "resnet18",
+    "note": "fedavg",
+    "num_classes": 7,
+    "temperature": 1.0,
+    "test_domain": "p"
+}

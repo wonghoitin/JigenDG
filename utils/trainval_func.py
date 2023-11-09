@@ -117,7 +117,10 @@ def GetFedModel(args, num_classes, is_train=True):
     return global_model, model_dict, optimizer_dict, scheduler_dict
 
 def SaveCheckPoint(args, model, epochs, path, optimizer=None, schedule=None, note='best_val'):
-    check_dict = {'args':args, 'epochs':epochs, 'model':model.state_dict(), 'note': note}
+    if type(model) == dict:
+        check_dict = {'args': args, 'epochs': epochs, 'model': model["model"], 'note': note}
+    else:
+        check_dict = {'args':args, 'epochs':epochs, 'model':model.state_dict(), 'note': note}
     if optimizer is not None:
         check_dict['optimizer'] = optimizer.state_dict()
     if schedule is not None:
